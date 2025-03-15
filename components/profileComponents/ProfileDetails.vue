@@ -31,9 +31,9 @@ import AppButton from "../button/AppButton.vue";
           <AppButton title="Tozalash" :bordered="true" />
         </div>
       </div>
-      <div class="flex flex-col">
+      <div class="flex flex-col items-center">
           <img src="/avatar-default.svg" class="rounded-full w-32">
-          <button class="mt-4 border-2 rounded-md">Rasm yuklash</button>
+          <input type="file" class="mt-4 border-2 w-25 rounded-md file:hidden" />
       </div>
     </div>
 </template>

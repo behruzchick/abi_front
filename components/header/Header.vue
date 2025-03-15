@@ -14,7 +14,8 @@ const pageTitles = [
   { path: "/payments", title: "Tolovlar" },
   { path: "/user-complaints", title: "Etirozlar" },
   { path: "/bushliqlar", title: "Boshliqlar" },
-  { path: "/profile", title: "Sozlamalar" }
+  { path: "/profile", title: "Sozlamalar" },
+  { path: "/admin", title: "Admin panel" }
 ];
 
 const title = computed(() => {
