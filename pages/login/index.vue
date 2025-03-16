@@ -22,9 +22,19 @@
       window.open("https://t.me/your_kage_bot?start=start", "_blank");
     }
 
-    const handleLogin = ( number:string , password:string ) => {
-      console.log(number , password)
-      authStore.login(number , password);
+    const handleLogin = async( number:string , password:string ) => {
+      const response = await fetch("/api/user", {
+        method: "POST",
+        headers: {
+          'Content-Type': 'application/json'
+        },
+        body: JSON.stringify({
+          number,
+          password
+        })
+      })
+      console.log(response);
+      
     }
 </script>
 

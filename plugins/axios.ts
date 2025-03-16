@@ -21,7 +21,7 @@ export default defineNuxtPlugin((nuxtApp) => {
         (response) => response,
         (error) => {
             if (error.response?.status === 401) {
-                navigateTo("#login")
+                navigateTo("/login")
             }
             return Promise.reject(error)
         }

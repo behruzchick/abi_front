@@ -13,7 +13,7 @@
     <nav class="flex-1 overflow-y-auto">
       <ul class="p-4 space-y-2">
         <li>
-          <NuxtLink v-slot="{selected}" to="/" class="flex items-center p-2 text-gray-700 dark:text-gray-200 rounded-lg hover:bg-indigo-100 dark:hover:bg-indigo-900 transition-colors duration-300">
+          <NuxtLink to="/" class="flex items-center p-2 text-gray-700 dark:text-gray-200 rounded-lg hover:bg-indigo-100 dark:hover:bg-indigo-900 transition-colors duration-300">
             <svg class="h-8 w-6 mr-0" fill="none" viewBox="0 0 23 18" stroke="currentColor">
               <MdiIcon icon="mdiHome"/>
             </svg>

@@ -1,5 +1,8 @@
 <script setup lang="ts">
 
+// definePageMeta({
+//   middleware:"auth"
+// })
 
 import AppButton from "~/components/button/AppButton.vue";
 </script>

@@ -53,7 +53,5 @@ const selectedMenu = ref(props.selections[0] ?? '')
 </template>
 
 <style scoped>
-    .scrollbar::-webkit-scrollbar{
-        opacity: ;
-    }
+
 </style>

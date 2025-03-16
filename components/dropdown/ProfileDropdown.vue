@@ -11,7 +11,7 @@ import {MenuItem, MenuItems} from "@headlessui/vue";
     <MenuItems
         class="absolute right-0 z-10 mt-2 w-56 origin-top-right rounded-md bg-white ring-1 shadow-lg ring-black/5 focus:outline-hidden">
       <div class="py-1">
-        <MenuItem v-slot="{ active , close }">
+        <MenuItem v-slot="{ close }">
           <NuxtLink
               to="/profile"
           >
